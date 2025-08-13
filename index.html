@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>LexCorp - Firma de Abogados</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<style type="text/tailwindcss">
+        :root {
+            --primary-color: #141414;
+            --secondary-color: #a8a29e;
+            --background-color: #121212;
+            --text-primary: #f5f5f5;
+            --text-secondary: #d4d4d4;
+            --accent-color: #d4af37;
+        }
+        body {
+            @apply font-sans bg-[var(--background-color)] text-[var(--text-primary)] rounded-md;
+        }
+        .button_primary {
+            @apply bg-[var(--accent-color)] text-[var(--primary-color)] font-bold py-2 px-4 rounded-md hover:bg-yellow-600 transition duration-200;
+        }
+        .nav_link {
+            @apply text-[var(--text-secondary)] hover:text-[var(--accent-color)] transition duration-200;
+        }
+        .section_title {
+            @apply text-3xl font-bold text-[var(--text-primary)] mb-8 text-center;
+        }
+    </style>
+</head>
+<body>
+<div class="relative flex size-full min-h-screen flex-col overflow-x-hidden group/design-root">
+<header class="fixed top-0 left-0 w-full bg-[var(--primary-color)] z-50 py-4 shadow-md">
+<nav class="container mx-auto flex items-center justify-between px-10">
+<div class="flex items-center gap-4">
+<div class="size-8 text-[var(--accent-color)]">
+<svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L1 9l4 1.5V17h2v-6h6v6h2v-6.5L23 9zM6 15V9.75L12 7l6 2.75V15H6z"></path></svg>
+</div>
+<h2 class="text-2xl font-bold text-[var(--text-primary)]">LexCorp</h2>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="nav_link" href="#">Inicio</a>
+<a class="nav_link" href="#">Servicios</a>
+<a class="nav_link" href="#">Equipo</a>
+<a class="nav_link" href="#">Casos</a>
+<a class="nav_link" href="#">Contacto</a>
+<button class="button_primary ml-4">
+<span class="truncate">Consulta gratuita</span>
+</button>
+</div>
+<div class="md:hidden">
+<button>
+<svg class="w-6 h-6 text-[var(--text-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 6h16M4 12h16m-7 6h7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+</div>
+</nav>
+</header>
+<main class="mt-20">
+<section class="relative h-[600px] flex items-center justify-center bg-cover bg-center" style='background-image: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.7) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAuvs0LZ1MbUvyeLvmS1nSHwhcPaGcBgfOvTzs2kJTn91d1WmTJ5yebFG_gQwe2AIcIXy26Ter4UY3yvQb6c4VutcJSh3G_RuwxcJWf9gWB9-9kEg0lIoM28FKVTBnKpPl6d89qlEH-y5Ih3lBbMqhKdFea_7IqCzf2mDU3g6315v5wI1fQZsLzCYQZHhflCw2xcCqmhJams3ZL6oSNEGAvUrBf9uM04uMdJjIzDXYne_LgtHR3GeIxMlYl4sYFriDH0DPeuAQHZu7x");'>
+<div class="relative text-center text-[var(--text-primary)] px-4">
+<h1 class="text-5xl font-black leading-tight tracking-[-0.033em] mb-4">Defendiendo tus derechos con integridad y experiencia</h1>
+<h2 class="text-xl font-normal leading-normal max-w-3xl mx-auto">En LexCorp, nos dedicamos a proporcionar representación legal excepcional y resultados sobresalientes para nuestros clientes.</h2>
+<button class="button_primary mt-8">
+<span class="truncate">Conoce a nuestro equipo</span>
+</button>
+</div>
+</section>
+<section class="py-16">
+<div class="container mx-auto px-4">
+<h2 class="section_title">Nuestras Áreas de Práctica</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-[var(--primary-color)] rounded-lg p-6 flex flex-col gap-4 border border-transparent hover:border-[var(--accent-color)] transition-colors duration-300">
+<div class="text-[var(--accent-color)]"><svg fill="currentColor" height="32px" viewBox="0 0 256 256" width="32px" xmlns="http://www.w3.org/2000/svg"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg></div>
+<div>
+<h3 class="text-xl font-bold text-[var(--text-primary)]">Derecho Corporativo</h3>
+<p class="text-[var(--text-secondary)]">Asesoramiento legal para empresas</p>
+</div>
+</div>
+<div class="bg-[var(--primary-color)] rounded-lg p-6 flex flex-col gap-4 border border-transparent hover:border-[var(--accent-color)] transition-colors duration-300">
+<div class="text-[var(--accent-color)]"><svg fill="currentColor" height="32px" viewBox="0 0 256 256" width="32px" xmlns="http://www.w3.org/2000/svg"><path d="M218.83,103.77l-80-75.48a1.14,1.14,0,0,1-.11-.11,16,16,0,0,0-21.53,0l-.11.11L37.17,103.77A16,16,0,0,0,32,115.55V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V160h32v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V115.55A16,16,0,0,0,218.83,103.77ZM208,208H160V160a16,16,0,0,0-16-16H112a16,16,0,0,0-16,16v48H48V115.55l.11-.1L128,40l79.9,75.43.11.1Z"></path></svg></div>
+<div>
+<h3 class="text-xl font-bold text-[var(--text-primary)]">Derecho Inmobiliario</h3>
+<p class="text-[var(--text-secondary)]">Transacciones y disputas inmobiliarias</p>
+</div>
+</div>
+<div class="bg-[var(--primary-color)] rounded-lg p-6 flex flex-col gap-4 border border-transparent hover:border-[var(--accent-color)] transition-colors duration-300">
+<div class="text-[var(--accent-color)]"><svg fill="currentColor" height="32px" viewBox="0 0 256 256" width="32px" xmlns="http://www.w3.org/2000/svg"><path d="M240,112H229.2L201.42,49.5A16,16,0,0,0,186.8,40H69.2a16,16,0,0,0-14.62,9.5L26.8,112H16a8,8,0,0,0,0,16h8v80a16,16,0,0,0,16,16H64a16,16,0,0,0,16-16V192h96v16a16,16,0,0,0,16,16h24a16,16,0,0,0,16-16V128h8a8,8,0,0,0,0-16ZM69.2,56H186.8l24.89,56H44.31ZM64,208H40V192H64Zm128,0V192h24v16Zm24-32H40V128H216ZM56,152a8,8,0,0,1,8-8H80a8,8,0,0,1,0,16H64A8,8,0,0,1,56,152Zm112,0a8,8,0,0,1,8-8h16a8,8,0,0,1,0,16H176A8,8,0,0,1,168,152Z"></path></svg></div>
+<div>
+<h3 class="text-xl font-bold text-[var(--text-primary)]">Derecho de Tráfico</h3>
+<p class="text-[var(--text-secondary)]">Defensa en casos de accidentes de tráfico</p>
+</div>
+</div>
+<div class="bg-[var(--primary-color)] rounded-lg p-6 flex flex-col gap-4 border border-transparent hover:border-[var(--accent-color)] transition-colors duration-300">
+<div class="text-[var(--accent-color)]"><svg fill="currentColor" height="32px" viewBox="0 0 256 256" width="32px" xmlns="http://www.w3.org/2000/svg"><path d="M178,32c-20.65,0-38.73,8.88-50,23.89C116.73,40.88,98.65,32,78,32A62.07,62.07,0,0,0,16,94c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,220.66,240,164,240,94A62.07,62.07,0,0,0,178,32ZM128,206.8C109.74,196.16,32,147.69,32,94A46.06,46.06,0,0,1,78,48c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,147.61,146.24,196.15,128,206.8Z"></path></svg></div>
+<div>
+<h3 class="text-xl font-bold text-[var(--text-primary)]">Derecho de Familia</h3>
+<p class="text-[var(--text-secondary)]">Asuntos de divorcio y custodia de menores</p>
+</div>
+</div>
+<div class="bg-[var(--primary-color)] rounded-lg p-6 flex flex-col gap-4 border border-transparent hover:border-[var(--accent-color)] transition-colors duration-300">
+<div class="text-[var(--accent-color)]"><svg fill="currentColor" height="32px" viewBox="0 0 256 256" width="32px" xmlns="http://www.w3.org/2000/svg"><path d="M117.25,157.92a60,60,0,1,0-66.5,0A95.83,95.83,0,0,0,3.53,195.63a8,8,0,1,0,13.4,8.74,80,80,0,0,1,134.14,0,8,8,0,0,0,13.4-8.74A95.83,95.83,0,0,0,117.25,157.92ZM40,108a44,44,0,1,1,44,44A44.05,44.05,0,0,1,40,108Zm210.14,98.7a8,8,0,0,1-11.07-2.33A79.83,79.83,0,0,0,172,168a8,8,0,0,1,0-16,44,44,0,1,0-16.34-84.87,8,8,0,1,1-5.94-14.85,60,60,0,0,1,55.53,105.64,95.83,95.83,0,0,1,47.22,37.71A8,8,0,0,1,250.14,206.7Z"></path></svg></div>
+<div>
+<h3 class="text-xl font-bold text-[var(--text-primary)]">Derecho Laboral</h3>
+<p class="text-[var(--text-secondary)]">Representación en conflictos laborales</p>
+</div>
+</div>
+<div class="bg-[var(--primary-color)] rounded-lg p-6 flex flex-col gap-4 border border-transparent hover:border-[var(--accent-color)] transition-colors duration-300">
+<div class="text-[var(--accent-color)]"><svg fill="currentColor" height="32px" viewBox="0 0 256 256" width="32px" xmlns="http://www.w3.org/2000/svg"><path d="M239.43,133l-32-80h0a8,8,0,0,0-9.16-4.84L136,62V40a8,8,0,0,0-16,0V65.58L54.26,80.19A8,8,0,0,0,48.57,85h0v.06L16.57,165a7.92,7.92,0,0,0-.57,3c0,23.31,24.54,32,40,32s40-8.69,40-32a7.92,7.92,0,0,0-.57-3L66.92,93.77,120,82V208H104a8,8,0,0,0,0,16h48a8,8,0,0,0,0-16H136V78.42L187,67.1,160.57,133a7.92,7.92,0,0,0-.57,3c0,23.31,24.54,32,40,32s40-8.69,40-32A7.92,7.92,0,0,0,239.43,133ZM56,184c-7.53,0-22.76-3.61-23.93-14.64L56,109.54l23.93,59.82C78.76,180.39,63.53,184,56,184Zm144-32c-7.53,0-22.76-3.61-23.93-14.64L200,77.54l23.93,59.82C222.76,148.39,207.53,152,200,152Z"></path></svg></div>
+<div>
+<h3 class="text-xl font-bold text-[var(--text-primary)]">Litigios</h3>
+<p class="text-[var(--text-secondary)]">Representación en juicios y arbitrajes</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 bg-[var(--background-color)]">
+<div class="container mx-auto px-4">
+<h2 class="section_title">Nuestro Equipo</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="text-center flex flex-col items-center">
+<div class="w-48 h-48 rounded-full bg-cover bg-center mb-4" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA-NNrzUDasaDroF5RTFLhy4SedkryfkmKuS8GHjQex-XDbAr6tJTqDE-tvFYj5c-yvpafEVOh52tZqu80U4_2tWQOPV6Pmqn76u6Qzp3h1D-pPiZ1oAEhcUXv27eNDqT1agsm6-0MahG39y9sMgAND8ajBwPODtQqFFlh9Tml_djbLyxohYeRyFkvcnbQm-ayMOr0AJm5cGVDyrdLeFrueF9yj91tGUutszdQ_bigrhUMwB5AJ-XO4nQ9eoCS7PftZJbSMmIZklWVf");'></div>
+<h3 class="text-xl font-bold text-[var(--text-primary)]">Dra. Elena Ramirez</h3>
+<p class="text-[var(--text-secondary)]">Socia Directora</p>
+</div>
+<div class="text-center flex flex-col items-center">
+<div class="w-48 h-48 rounded-full bg-cover bg-center mb-4" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDo8KysuKDxOxux7QRKwA_JLC2LRg1SLw2HZeWcvqYh8fzin0j4Qr4lM1b5dVAzhIzqyyGAfxyGxWZlo-dGRuzu9vWa1tfFwdoc8yuAlYR_P315BgGxRsWjXN2ln7wBSAatjxaK24GwJv4w0Sr3cChnpJLGrmYcChSh75sZCCMriv0HrvjrGAkJU-L-zE4hblPyWZyLsz2aJWMzVmFuXHMot2C-zLgAZWzaXkx0Vyls24IsHtAd7PyHhBriLSx3SDmYcUipX03rRUF7");'></div>
+<h3 class="text-xl font-bold text-[var(--text-primary)]">Dr. Javier Torres</h3>
+<p class="text-[var(--text-secondary)]">Socio</p>
+</div>
+<div class="text-center flex flex-col items-center">
+<div class="w-48 h-48 rounded-full bg-cover bg-center mb-4" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDLhhP_uUWXSWojpeAsMETDpvBIxDEzzS5wNa0V5Yw5w0fL1fj4lYSVbXHQ3ghIwjpfucygvnmLqsvZwxpPLFn_BSyui-Cgvcc4NF71Nw5cE951vKCYZR0DVd37Q9Ej5AEVIMICsERSObsK-OlScjh_gYVVSiLuXgInI-0TM92Sup-nith5n9QZ5s53-xRp18XrdJbFgdhicotlfBqkT6rbcBYXnU74KSvxlKZIUWmgHc7Ru6trxqRiCA95FiAJKuhTkPx_Dzzhm3Bz");'></div>
+<h3 class="text-xl font-bold text-[var(--text-primary)]">Dra. Sofia Vargas</h3>
+<p class="text-[var(--text-secondary)]">Asociada</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16">
+<div class="container mx-auto px-4">
+<h2 class="section_title">Casos de Éxito</h2>
+<div class="space-y-12">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+<div class="order-2 md:order-1">
+<p class="text-[var(--accent-color)] text-sm font-bold tracking-wider">DERECHO CORPORATIVO</p>
+<h3 class="text-2xl font-bold text-[var(--text-primary)] mt-2">Representación en Fusión y Adquisición</h3>
+<p class="text-[var(--text-secondary)] mt-4">Asesoramos a una empresa tecnológica en una fusión valorada en 50 millones de dólares, asegurando una transición sin problemas y términos favorables.</p>
+</div>
+<div class="order-1 md:order-2">
+<div class="w-full h-80 bg-center bg-no-repeat bg-cover rounded-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDk5n_fBr_zDhfj9AQWnzK342ZswPsP0PAoc-hCgDJrb94M8ldIkIEemYchaazCnPZWe6_SUWlD8V8UxrN1DMfsKGMnN3q5q0MnwIyQvmi52uDIo5wvhKFR05Gk3uLeC_oQ_CYRPdIBGa3cx4On_ttJhAp-T_bC6HAB-VRqhNaFp56RwaOSafYGMXkanFXa-WlqQA3VSywWFDJn3F8oZO8GxChMvOY4ak96tb6Vb900lSo4RI_-0IquWM_TzzZRaRSn0BYCVgbsOSGV");'></div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+<div>
+<div class="w-full h-80 bg-center bg-no-repeat bg-cover rounded-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDRD0oUsgDiCrD8zU050i3H-XOrMy3gnSLHFq068W4MlEw5_lWuzixsl0ghkt_nTgFLOR8kFAXQBaVSwa_xt9kbac_ll-kDXW_OW0IQkZ27MGkS3wDmxYVHwYqV2WP_SjhPoyH0dptmm5YFG5cwkx3hsqJJ-9lRpbG4vnBlgsEcDo847KxLtHiKxxmRrGmT3piUO7khVsF8WJxjqbq3Pr-R_2wQOqHgSrj4jl4yf-0XHYR2eiTaHnesAoYNcxcouIYA46gZbSGAWByC");'></div>
+</div>
+<div>
+<p class="text-[var(--accent-color)] text-sm font-bold tracking-wider">DERECHO INMOBILIARIO</p>
+<h3 class="text-2xl font-bold text-[var(--text-primary)] mt-2">Resolución de Disputa de Propiedad</h3>
+<p class="text-[var(--text-secondary)] mt-4">Representamos a un cliente en una disputa de propiedad compleja, logrando un acuerdo favorable que protegió sus intereses y evitó un litigio prolongado.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+<div class="order-2 md:order-1">
+<p class="text-[var(--accent-color)] text-sm font-bold tracking-wider">DERECHO DE FAMILIA</p>
+<h3 class="text-2xl font-bold text-[var(--text-primary)] mt-2">Caso de Divorcio de Alto Patrimonio</h3>
+<p class="text-[var(--text-secondary)] mt-4">Manejamos un caso de divorcio de alto patrimonio, protegiendo los activos de nuestro cliente y asegurando un acuerdo justo en la división de bienes y la custodia de los hijos.</p>
+</div>
+<div class="order-1 md:order-2">
+<div class="w-full h-80 bg-center bg-no-repeat bg-cover rounded-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCkUdyjLYDhmhFB4P_YQJSCQ4q8m_O4zMjHbZadTqG2s_-TqLsEfAVv94Cv1lthmGGpOYXmVuXAIWOGOwMRhlr7mS7nmvavDarVz1DxUt7YQeKD9rAnYMLgX5FYpXYtFwgl0lnU8st7MOgTDXX3eZhUV2127DjfMv6R9E-9pqBAmfWtxaKX4o9jigBdPc1QgthxUSB45aAhhwaX8IUAZtQbD1sm-4oSsAJEuxjVLrb_71zI_mm-MkfQJn-JmJNIBpnLh8_lBS0KeO3E");'></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-[var(--primary-color)]">
+<div class="container mx-auto px-4 text-center">
+<h2 class="text-4xl font-black text-[var(--text-primary)]">Agenda una consulta gratuita</h2>
+<p class="text-[var(--text-secondary)] mt-4 max-w-2xl mx-auto">Contáctanos hoy para discutir tu caso y explorar cómo podemos ayudarte a alcanzar tus objetivos legales.</p>
+<button class="button_primary mt-8">
+<span class="truncate">Contáctanos</span>
+</button>
+</div>
+</section>
+</main>
+<footer class="bg-[var(--primary-color)] py-8">
+<div class="container mx-auto text-center text-[var(--text-secondary)] px-4">
+<div class="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 mb-4">
+<a class="nav_link" href="#">Política de Privacidad</a>
+<a class="nav_link" href="#">Términos de Servicio</a>
+</div>
+<p>© 2024 LexCorp. Todos los derechos reservados.</p>
+</div>
+</footer>
+</div>
+
+</body></html>
